@@ -1,0 +1,14 @@
+/* h1{
+    color: red;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px 20px 30px;
+    border-style: dashed;
+    outline: 2px solid blue;
+    height: 100px;
+    width: 200px;
+} */
+h1{
+    border: 10px double red !important;
+}
