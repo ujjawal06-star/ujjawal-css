@@ -18,14 +18,14 @@
         border: 2px solid black;
         border-radius: 10px;
       }
-      .dib{
+      .headline,.headline1,.headline2,.headline3,.headline4,.headline5{
         display: flex;
         gap: 20px;
         margin: 10px;
       }
       i{
         color: black !important;
-        margin-top: 40px;
+        /* margin-top: 40px; */
       }
       i:hover{
         color: blueviolet;
@@ -36,7 +36,6 @@
         font-weight: bolder;
         font-size: 30px;
         display: block;
-
       }
     </style>
   </head>
@@ -46,25 +45,25 @@
         <div class="headline">
           <!-- <i class="fa-solid fa-envelope"></i> -->
           <p>
-            <span><i class="fa-solid fa-envelope"></i>    lorem ipsum</span>
+            <span><i class="fa-solid fa-envelope"></i> lorem ipsum</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             officia laborum, incidunt libero reprehenderit totam dolorum
             blanditiis quam aliquam odit?
           </p>
         </div>
-        <div class="dib">
-          <i class="fa-solid fa-bars"></i>
+        <div class="headline1">
+          <!-- <i class="fa-solid fa-bars"></i> -->
           <p>
-            <span>dolor sitema</span>
+            <span><i class="fa-solid fa-bars"></i>  dolor sitema</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             officia laborum, incidunt libero reprehenderit totam dolorum
             blanditiis quam aliquam odit?
           </p>
         </div>
-        <div class="dib">
-          <i class="fa-solid fa-comment"></i>
+        <div class="headline2">
+          <!-- <i class="fa-solid fa-comment"></i> -->
           <p>
-              <span>sed ut perspiciatis</span>
+              <span><i class="fa-solid fa-comment"></i>  sed perspiciatis</span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             officia laborum, incidunt libero reprehenderit totam dolorum
             blanditiis quam aliquam odit?
@@ -72,8 +71,8 @@
         </div>
       </div>
       <div class="box">
-        <div class="dib">
-          <i class="fa-solid fa-user"></i>
+        <div class="headline3">
+          <!-- <i class="fa-solid fa-user"></i> -->
           <p>
               <span><i class="fa-solid fa-user"></i>    magni dolores</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
@@ -81,7 +80,7 @@
             blanditiis quam aliquam odit?
           </p>
         </div>
-        <div class="headline1">
+        <div class="headline4">
           <!-- <i class="fa-solid fa-person"></i> -->
           <p>
               <span> <i class="fa-solid fa-person"></i>  nemo enim</span>
@@ -90,10 +89,10 @@
             blanditiis quam aliquam odit?
           </p>
         </div>
-        <div class="dib">
-          <i class="fa-solid fa-car"></i>
+        <div class="headline5">
+          <!-- <i class="fa-solid fa-car"></i> -->
           <p>
-              <span>eiusmod tempor</span>
+              <span><i class="fa-solid fa-car"></i>   eiusmod tempor</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
             officia laborum, incidunt libero reprehenderit totam dolorum
             blanditiis quam aliquam odit?
@@ -105,17 +104,45 @@
     <script>
         ScrollReveal().reveal(".headline",{
             delay:500,
-            duration: 750,
+            duration: 950,
             distance: "30px",
             reset: false,
-            origin: "bottom",
+            origin: "left",
         });
         ScrollReveal().reveal(".headline1",{
             delay:900,
             duration: 950,
             distance: "30px",
             reset: false,
+            origin: "top",
+        });
+        ScrollReveal().reveal(".headline2",{
+            delay:1300,
+            duration: 950,
+            distance: "30px",
+            reset: false,
+            origin: "right",
+        });
+        ScrollReveal().reveal(".headline3",{
+            delay:2500,
+            duration: 950,
+            distance: "30px",
+            reset: false,
             origin: "left",
+        });
+        ScrollReveal().reveal(".headline4",{
+            delay:2100,
+            duration: 950,
+            distance: "30px",
+            reset: false,
+            origin: "bottom",
+        });
+        ScrollReveal().reveal(".headline5",{
+            delay:1700,
+            duration: 950,
+            distance: "30px",
+            reset: false,
+            origin: "right",
         });
     </script>
   </body>
