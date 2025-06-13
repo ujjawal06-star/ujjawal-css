@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <style>
+      .box {
+        display: flex;
+      }
+      .main-box {
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      .dib{
+        display: flex;
+        gap: 20px;
+        margin: 10px;
+      }
+      i{
+        color: black !important;
+        margin-top: 40px;
+      }
+      i:hover{
+        color: blueviolet;
+      }
+      span{
+        font-style: italic;
+        color: aqua;
+        font-weight: bolder;
+        font-size: 30px;
+        display: block;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="box">
+        <div class="headline">
+          <!-- <i class="fa-solid fa-envelope"></i> -->
+          <p>
+            <span><i class="fa-solid fa-envelope"></i>    lorem ipsum</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+        <div class="dib">
+          <i class="fa-solid fa-bars"></i>
+          <p>
+            <span>dolor sitema</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+        <div class="dib">
+          <i class="fa-solid fa-comment"></i>
+          <p>
+              <span>sed ut perspiciatis</span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="dib">
+          <i class="fa-solid fa-user"></i>
+          <p>
+              <span><i class="fa-solid fa-user"></i>    magni dolores</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+        <div class="headline1">
+          <!-- <i class="fa-solid fa-person"></i> -->
+          <p>
+              <span> <i class="fa-solid fa-person"></i>  nemo enim</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+        <div class="dib">
+          <i class="fa-solid fa-car"></i>
+          <p>
+              <span>eiusmod tempor</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            officia laborum, incidunt libero reprehenderit totam dolorum
+            blanditiis quam aliquam odit?
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal(".headline",{
+            delay:500,
+            duration: 750,
+            distance: "30px",
+            reset: false,
+            origin: "bottom",
+        });
+        ScrollReveal().reveal(".headline1",{
+            delay:900,
+            duration: 950,
+            distance: "30px",
+            reset: false,
+            origin: "left",
+        });
+    </script>
+  </body>
+</html>
